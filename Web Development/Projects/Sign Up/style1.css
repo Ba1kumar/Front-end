@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.inner-box {
+    width: 450px;
+    height: 450px;
+    padding: 20px 40px;
+    background-color: aliceblue;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 0px auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow:5px 5px rgb(102, 174, 220);
+}
+
+ h1 {
+     font-weight: bold;      
+     text-align: center;
+}
+
+.login-body p {
+    margin: 10px 0px;
+}
+
+.login-body p label {
+    display: block;
+    font-weight: bold;
+}
+
+.login-body p input {
+    margin: 5px 0px;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.login-body p input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.sign-up p {
+      text-align: center;
+}
+
+.sign-up p a {
+      color: #3498db;
+}
